@@ -1,0 +1,54 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate sample price data
+np.random.seed(42)
+dates = pd.date_range(start='2022-01-01', end='2022-12-31')
+prices = pd.Series(np.random.normal(loc=100, scale=5, size=len(dates)), index=dates)
+
+# Transaction cost and slippage parameters
+transaction_cost = 0.01  # 1% transaction cost
+slippage = 0.005  # 0.5% slippage
+
+# Calculate short-term (fast) moving average and long-term (slow) moving average
+short_window = 50
+long_window = 200
+
+short_mavg = prices.rolling(window=short_window, min_periods=1).mean()
+long_mavg = prices.rolling(window=long_window, min_periods=1).mean()
+
+# Generate buy/sell signals
+signals = pd.Series(index=prices.index, dtype=np.int)
+signals[short_mavg.shift(1) < long_mavg.shift(1)] = 1  # Buy signal
+signals[short_mavg.shift(1) > long_mavg.shift(1)] = -1  # Sell signal
+
+# Backtest the strategy
+positions = signals.diff().fillna(0)
+
+# Calculate trade returns considering slippage and transaction cost
+trade_returns = (prices.shift(-1) - prices) / prices
+trade_returns = trade_returns - (np.abs(positions.diff()) * transaction_cost) - (np.abs(positions) * slippage)
+
+# Calculate portfolio returns
+portfolio_returns = positions * trade_returns
+
+# Cumulative returns
+cumulative_returns = portfolio_returns.cumsum()
+
+# Plot the strategy
+plt.figure(figsize=(14, 7))
+plt.plot(cumulative_returns, label='Strategy Returns')
+
+# Plot buy signals
+plt.plot(cumulative_returns[signals == 1], '^', markersize=10, color='g', lw=0, label='Buy Signal')
+
+# Plot sell signals
+plt.plot(cumulative_returns[signals == -1], 'v', markersize=10, color='r', lw=0, label='Sell Signal')
+
+plt.title('Advanced Moving Averages Crossover Strategy')
+plt.xlabel('Date')
+plt.ylabel('Cumulative Returns')
+plt.legend()
+plt.grid(True)
+plt.show()
