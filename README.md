@@ -53,6 +53,5 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 For any questions, suggestions, or inquiries, please feel free to contact us at kantkrishan0205@gmail.com. We value your feedback and are committed to continuously improving Algorithmic Trading Strategies.
 
-![Happy Trading](https://media.giphy.com/media/3o6ZtlgOIXK9txKlI4/giphy.gif)
 
 Happy trading! 📈🤖
