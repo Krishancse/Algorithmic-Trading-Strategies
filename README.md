@@ -1,7 +1,7 @@
 # Algorithmic-Trading-Strategies:
 # Algorithmic Trading Strategies
 
-![Algorithmic Trading](https://images.unsplash.com/photo-1552664730-1dbb24b28029)
+![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/e8090de0-ef56-447c-9d4c-ff95d10f17b1)
 
 Welcome to the Algorithmic Trading Strategies repository! This repository is a comprehensive collection of advanced algorithms and strategies tailored for algorithmic trading in financial markets. Whether you're a seasoned algorithmic trader or just starting, this repository aims to provide you with powerful tools and insights to enhance your trading strategies.
 
