@@ -55,3 +55,10 @@ For any questions, suggestions, or inquiries, please feel free to contact us at 
 
 
 Happy trading! 📈🤖
+![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/551dcad3-3708-45a9-a584-a63da0fe4796)
+![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/85f94e59-9857-4cf8-8d93-651cd54d86b6)
+![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/20266496-948b-4bcf-b86a-8300c0ac474e)
+![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/dee709ee-b24f-4cab-9020-fcb38613483c)
+
+
+
