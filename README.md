@@ -2,6 +2,8 @@
 # Algorithmic Trading Strategies
 
 ![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/e8090de0-ef56-447c-9d4c-ff95d10f17b1)
+![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/dee709ee-b24f-4cab-9020-fcb38613483c)
+
 
 Welcome to the Algorithmic Trading Strategies repository! This repository is a comprehensive collection of advanced algorithms and strategies tailored for algorithmic trading in financial markets. Whether you're a seasoned algorithmic trader or just starting, this repository aims to provide you with powerful tools and insights to enhance your trading strategies.
 
@@ -56,9 +58,7 @@ For any questions, suggestions, or inquiries, please feel free to contact us at 
 
 Happy trading! 📈🤖
 ![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/551dcad3-3708-45a9-a584-a63da0fe4796)
-![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/85f94e59-9857-4cf8-8d93-651cd54d86b6)
-![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/20266496-948b-4bcf-b86a-8300c0ac474e)
-![image](https://github.com/Krishancse/Algorithmic-Trading-Strategies/assets/97558810/dee709ee-b24f-4cab-9020-fcb38613483c)
+
 
 
 
