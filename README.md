@@ -34,7 +34,7 @@ To get started with Algorithmic Trading Strategies, follow these steps:
 
 1. **Clone the Repository**: Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/your_username/Algorithmic-Trading-Strategies.git
+   git clone https://github.com/Krishancse/Algorithmic-Trading-Strategies.git
    ```
 
 2. **Explore Strategies**: Navigate through the repository and explore the various trading strategies available. Each strategy directory contains detailed instructions on installation, usage, and customization.
